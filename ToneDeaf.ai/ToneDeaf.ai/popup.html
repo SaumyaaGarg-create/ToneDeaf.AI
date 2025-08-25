@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ToneDeaf.ai</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="popup-container">
+    <h1>ToneDeaf.ai 🎵</h1>
+    <p class="tagline">Making your messages uselessly sarcastic since 2023</p>
+
+    <!-- Input area -->
+    <label for="input">Enter text:</label><br>
+    <textarea id="input" rows="4" cols="30"></textarea><br><br>
+
+    <!-- Sarcasm mode selector -->
+    <label for="sarcasm-mode">Select Sarcasm Mode:</label><br>
+    <select id="sarcasm-mode" class="sarcasm-select">
+      <option value="Passive-Aggressive">Passive-Aggressive</option>
+      <option value="Mocking">Mocking</option>
+      <option value="Dark Humor">Dark Humor</option>
+    </select><br><br>
+
+    <!-- Button -->
+    <button id="sarcasmify">Sarcasmify</button><br><br>
+
+    <!-- Output -->
+    <div id="output" class="output"></div>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+      <p>⚠ Warning: May cause eye-rolling, grumbling, and loss of employment.</p>
+    </div>
+  </div>
+
+  <!-- Link JS -->
+  <script src="popup.js"></script>
+</body>
+</html>

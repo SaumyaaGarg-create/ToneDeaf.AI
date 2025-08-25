@@ -1,0 +1,80 @@
+/* Popup Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc; /* Beige background */
+  min-width: 250px;
+}
+
+.popup-container {
+  padding: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0 0 8px 0;
+}
+
+.tagline {
+  font-style: italic;
+  color: #666;
+  margin: 0 0 16px 0;
+  font-size: 12px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.sarcasm-select {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  appearance: menulist;
+  box-sizing: border-box;
+}
+
+.disclaimer {
+  font-size: 10px;
+  color: #999;
+  border-top: 1px dashed #ccc;
+  padding-top: 8px;
+}
+
+/* Injected Button Styles */
+.tonedeaf-button {
+  background-color: #f5f5dc; /* Beige background */
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  margin-top: 4px;
+  margin-left: 4px;
+  color: #333;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.tonedeaf-button:hover {
+  background-color: #e0e0c0;
+  border-color: #999;
+}
+
+.tonedeaf-button:active {
+  transform: scale(0.98);
+}
